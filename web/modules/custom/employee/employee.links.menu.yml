@@ -1,0 +1,13 @@
+employee.createEmployee:
+  title: 'Create Employee'
+  description: Employee
+  route_name: employee.createEmployee
+  weight: 9
+  menu_name: main
+
+employee.getEmployeeList:
+  title: 'Employee List'
+  description: "list of employee"
+  route_name: employee.getEmployeeList
+  weight: 10
+  menu_name: main

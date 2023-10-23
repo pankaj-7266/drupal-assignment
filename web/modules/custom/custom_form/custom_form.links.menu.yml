@@ -1,0 +1,13 @@
+custom_form.createNode:
+  title: 'custom form'
+  description: node creation
+  route_name: custom_form.createNode
+  weight: 13
+  menu_name: main
+ 
+custom_form.ConfigForm:
+  title: 'Config Form'
+  route_name: custom_form.ConfigForm
+  description: 'Published/unpublished option'
+  parent: system.admin_config_system
+

@@ -1,0 +1,16 @@
+<?php
+    function basic_page_theme( $existing, $theme, $type, $path){
+        $data = array(
+            'name' => 'Information Page',
+            'email' => 'information@gmail.com'
+        );
+        return array(
+            'information_page' => array(
+                'variables' => array(
+                    'items' => $data,
+                    'title' => ''
+                )
+            )
+        );
+    };
+?>

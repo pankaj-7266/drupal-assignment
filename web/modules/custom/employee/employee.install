@@ -1,0 +1,40 @@
+<?php
+    function employee_schema(){
+        $schema['employees'] = [
+            'fields' =>[
+                'id' =>[
+                    'description' => 'employee id',
+                    'type' => 'serial',
+                    'not null' => TRUE
+                ],
+                'name' => [
+                    'type'=>'varchar',
+                    'description' => 'employee name',
+                    'length' => 50,
+                    'not null' => TRUE
+                ],
+                'gender' => [
+                    'description' => 'employee gender',
+                    'type' => 'varchar',
+                    'length' => 10,
+                    'not null' => TRUE,
+
+                ],
+                'about_employee' => [
+                    'type' => 'text',
+                    'not null' => TRUE
+                ],
+                'create_date' => [
+                    'mysql_type' => 'timestamp',
+                    'not null' => TRUE
+                ]
+            ],
+            'primary key' => ['id'],
+            'indexes' => [
+                'id' => ['id'],
+                'name' => ['name']
+            ]
+        ];
+        return $schema;
+    }
+?> 

@@ -1,0 +1,5 @@
+name: form module
+description: form module
+core_version_requirement: '>=9.2'
+type: module
+package: Custom Modules

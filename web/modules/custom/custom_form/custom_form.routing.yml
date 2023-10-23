@@ -1,0 +1,17 @@
+custom_form.createNode:
+  path: '/create-form'
+  defaults:
+    _controller: '\Drupal\custom_form\Controller\FormController::createNode'
+    _title: 'create node'
+  requirements:
+    _permission: 'access content'
+
+custom_form.ConfigForm:
+  path: '/admin/config/system/config_form'
+  defaults:
+    _form: '\Drupal\custom_form\Form\ConfigForm'
+    _title: 'Custom configuration Form'
+  requirements:
+    _permission: 'administer site configuration'
+  options:
+    _admin_route: TRUE

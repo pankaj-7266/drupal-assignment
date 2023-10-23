@@ -1,0 +1,7 @@
+node_unpublished.content:
+  path: '/node/node-unpublish'
+  defaults:
+    _controller: '\Drupal\node_unpublished\Controller\NodeUnpublish::content'
+    _title: 'Node unpublish custom'
+  requirements:
+    _permission: 'access content'

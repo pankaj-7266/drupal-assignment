@@ -1,0 +1,4 @@
+# name: 'Student contact form'
+# type:  module
+# description: 'A contact Form'
+# core_version_requirement: ^8 || ^9;

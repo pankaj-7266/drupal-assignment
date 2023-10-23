@@ -1,0 +1,11 @@
+name: unpublished module
+type: module
+description: "node unpublished module"
+core_version_requirement: ">=9.2"
+package: Custom Modules
+
+# name: Basic Page Module
+# description: This is our 1st basic page module
+# core_version_requirement: '>=9.2'
+# type: module
+# package: Custom Modules

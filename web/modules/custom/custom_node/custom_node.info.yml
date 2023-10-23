@@ -1,0 +1,5 @@
+name: Node Module
+description: This is our 1st node module
+core_version_requirement: '>=9.2'
+type: module
+package: Custom Modules
